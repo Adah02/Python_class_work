@@ -13,10 +13,9 @@ def categorize_numbers(values, divisor):
   return non_divisible
     
 
-
-
 divisor = float(input('Enter divisor: '))
 values = input('Enter number: ')
+
 while values != 0:
   values = float(input('Enter number: '))
 result = categorize_numbers(values,divisor)
