@@ -34,8 +34,8 @@ scores.extend([34,67,87,65])
 #(+ and *) are regarded as overloaded operators.
 
 print(scores)
-print(cart[0].upper())
 
+print(cart[0].upper())
 
 print(scores[0:6:2])
 print(scores[::2])
